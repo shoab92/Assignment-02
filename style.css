@@ -92,3 +92,68 @@
             height: auto;
             width: 30rem;
         }
+
+        #plants {
+            font-size: 2.8rem;
+        }
+
+        .our-plants {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: auto;
+        }
+
+        .plants-para {
+            font-size: 1.5rem;
+            color: rgba(0, 0, 0, 0.411);
+        }
+
+        .btn-plants {
+            color: white;
+            font-weight: bolder;
+            background-color: red;
+            padding: 1rem;
+            border: none;
+            width: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 3rem;
+            border: red;
+        }
+
+        .card {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            background-color: rgb(255, 255, 255);
+            border-radius: 3px;
+
+            /* display: inline;border-left: ;*/
+        }
+
+        .image:hover {
+            opacity: .8;
+        }
+
+        .lily:hover {
+            color: rgb(255, 255, 255);
+            background-color: chocolate;
+        }
+
+        .lily {
+            font-size: 2rem;
+            height: 35rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid red;
+            margin: 1rem;
+        }
